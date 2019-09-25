@@ -1,0 +1,81 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+	font-size: 1.75em;
+	display: flex;
+	justify-content: center;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 450px;
+}
+
+.main-container h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.incompleteTasksCount {
+	margin-top: 10px;
+	color: gray;
+}
+
+#addItem {}
+
+#taskList {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#taskList a {
+	margin-left: 10px;
+}
+
+#taskList .form-control {
+	width: 300px;
+	display: inline-block;
+	padding: 5px;
+	font-size: 1.3rem;
+}
+
+#taskList input[type="checkbox"]  {
+	font-size: 1rem;
+}
+
+.taskLabel {
+	margin-left: 5px;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 4px;
+}
+
+.btn-primary {
+	background-color: green;
+	color: #FFFFFF;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+#count {
+  margin-left: 10px;
+}
+
+#newTask {
+	padding: 10px;
+	font-size: 1.6rem;
+	border-radius: 3px;
+	border: 1px gray solid;
+}

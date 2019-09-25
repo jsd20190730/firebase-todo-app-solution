@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>DoIt - Todo Application</title>
+
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <h1>DoIt!</h1>
+
+        <div class="form-container">
+          <form id="addItem" class="form">
+            <div class="form-group">
+              <input type="text" id="newTask" placeholder="Add item">
+            </div>
+          </form>
+
+          <div class="incompleteTasksCount">
+            <span>Incomplete Tasks:</span><span id="count"> 0 </span>
+          </div>
+        </div>
+
+        <ul id="taskList">
+          <!-- hardcoded code tasks -->
+          <!-- <li id="123">
+            <label class='checkbox-inline'>
+              <input type='checkbox' name='items' />
+              <span class="taskLabel"> do laundry</span>
+              <a href="#" class='editTask'>edit</a>
+              <a href="#" class='deleteTask'>delete</a>
+            </label>
+          </li>
+
+          <li id="345">
+            <label class='checkbox-inline'>
+              <input type='checkbox' name='items' />
+              <span class="taskLabel"> grocery shopping</span>
+              <a href="#" class='editTask'>edit</a>
+              <a href="#" class='deleteTask'>delete</a>
+            </label>
+          </li>
+
+          <li id="345">
+            <label class='checkbox-inline'>
+              <input type='checkbox' name='items' />
+              <span class="taskLabel"> exercise </span>
+              <a href="#" class='editTask'>edit</a>
+              <a href="#" class='deleteTask'>delete</a>
+            </label>
+          </li> -->
+
+          <!-- end of hardcoded tasks -->
+        </ul>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+
+    <!-- Add firebase libraries -->
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+    <!-- firebase libraries -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
